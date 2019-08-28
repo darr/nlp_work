@@ -1,5 +1,43 @@
 # work
 
+## bert_ner
+
+https://github.com/darr/nerbert
+
+介绍
+Use google BERT to do CoNLL-2003 NER
+
+dataset
+CoNLL-2003
+
+The results report by BERT paper
+
+```shell
+https://arxiv.org/pdf/1810.04805.pdf
+```
+
+|System         | Dev F1|Test F1|
+|---------------|-------|-------|
+|ELMo+BiLSTM+CRF|95.7   |92.2   |
+|CVT+Multi      |-      |92.6   |
+|BERT_BASE      |96.4   |92.4   |
+|BERT_LARGE     |96.6   |92.8   |
+
+The result this project get:
+bert-base-cased
+
+```shell
+             precision    recall  f1-score   support
+
+        LOC     0.9271    0.9305    0.9288      1668
+        ORG     0.8754    0.9055    0.8902      1661
+        PER     0.9663    0.9573    0.9618      1617
+       MISC     0.7803    0.8348    0.8066       702
+
+avg / total     0.9049    0.9189    0.9117      5648
+```
+my device has a 1080Ti, if you use bert-large may have a memory problem, and I do not try.
+
 ## chinese textual inference
 
 https://github.com/darr/chinese_textual_inference  
@@ -1185,3 +1223,5 @@ https://github.com/darr/extract_important_event
 
 An exploration for Eventline (important news Rank organized by pulic time)，
 针对某一事件话题下的新闻报道集合，通过使用docrank算法，对新闻报道进行重要性识别，并通过新闻报道时间挑选出时间线上重要新闻。
+
+
