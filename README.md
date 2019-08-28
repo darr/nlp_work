@@ -1225,3 +1225,53 @@ An exploration for Eventline (important news Rank organized by pulic time)，
 针对某一事件话题下的新闻报道集合，通过使用docrank算法，对新闻报道进行重要性识别，并通过新闻报道时间挑选出时间线上重要新闻。
 
 
+## HyponymyExtraction
+
+https://github.com/darr/hyonym_extraction
+
+HyponymyExtraction and Graph based on KB Schema, Baike-kb and online text extract,  
+基于知识概念体系，百科知识库，以及在线搜索结构化方式的词语上下位抽取．  
+
+# 结果展示　　
+
+哆啦A梦  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_duolaameng.png)
+平壤  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_pingrang.png)
+孔子  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_kongzi.png)
+小米  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_xiaomai.png)
+苹果  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_pingguo.png)
+中国  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_zhongguo.png)
+
+# 结果展示
+
+电话  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_dianhua.png)
+孔子  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_kongzi.png)
+平壤  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_pingrang.png)
+杨幂  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_yangmi.png)
+哆啦A梦  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_duolaameng.png)
+老子  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_laozi.png)
+小米  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_xiaomai.png)
+姚明  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_yaoming.png)
+黄河  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_huanghe.png)
+苹果  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_pingguo.png)
+小米  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_xiaomi.png)
+中国  
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_zhongguo.png)
+
+
