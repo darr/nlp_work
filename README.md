@@ -48,3 +48,29 @@ chinese Humor Detection or Computation based on corpus and nlp methods,
 | 幽默类型 | 5938 | 1460| 0.9357|0.7103|3分类|CNN-ATT |
 | 隐喻类别 | 3515 | 879| 0.9166|0.8089|2分类|BiLSTM |
 | 隐喻情绪 | 2904 | 726| 0.8134|0.5399|7分类|BiLSTM |
+
+## poem mining
+
+https://github.com/darr/poem
+
+Chinese Classic Poem Mining Project including corpus buiding by spyder and content analysis by nlp methods,  
+基于爬虫与nlp的中国古代诗词文本挖掘项目  
+
+### 阶段性成果
+
+1, 古代诗词语料库,一共采集到92127首古代诗词  
+2, 古代诗词外部计量分析结果，结果保存至result文件夹  
+3, 诗人足迹一键生成，使用方式如下，结果会直接生成以搜索诗人名字命名的html文件：
+
+以下是举例结果：     
+
+![image](./results/libai.png)
+![image](./results/liqingzhao.png)
+![image](./results/liyu.png)
+![image](./results/sushi.png)
+![image](./results/taoyuanming.png)
+![image](./results/wentianxiang.png)
+![image](./results/xinqiji.png)
+
+![image](./results/author_select.png)
+![image](./results/authors.png)
