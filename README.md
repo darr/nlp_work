@@ -1172,3 +1172,9 @@ chatbot based on music region using method including es and music kb.
 上一句：
 精忠报国  ---来自名杂牌精选的《精忠报国屠洪纲》
 ```
+
+## event triples extract
+
+https://github.com/darr/event_triples_extract
+
+Based on Dependency Parsing and Semantic Role Labeling. 基于依存句法与语义角色标注的事件三元组抽取
