@@ -169,7 +169,7 @@ Law Crime Mining Based on Corpus build and content analysis by NLP methods.
 
 ### 基于刑法的因果字典抽取
 
-根据中国人民刑法，对其进行因果处理，形成crime_nanme, cause, crime三个字段的抽取，形成量刑的基础,示例如下：
+根据中国人民刑法，对其进行因果处理，形成crime_name, cause, crime三个字段的抽取，形成量刑的基础,示例如下：
 
     {
     'crime_name': ['故意伤害罪', '组织出卖人体器官罪'],
