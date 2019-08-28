@@ -29,3 +29,10 @@ which sum up to 1300 products and more than 90000 brands,
 ![image](https://github.com/darr/product_kg/raw/master/image/sale.png)
 4, 混合关联关系
 ![image](https://github.com/darr/product_kg/raw/master/image/mix.png)
+
+## HumorDetection
+
+https://github.com/darr/chinese_humor_sentiment
+
+chinese Humor Detection or Computation based on corpus and nlp methods,  
+基于语料库与NLP方法的中文幽默计算与检测项目  
