@@ -1063,3 +1063,12 @@ disease centered Medical graph and sever as question answering base.
 回答:通常可以通过全血细胞计数检查出来的疾病有眼球内炎；视网膜血管炎；老年收缩期高血压；成人类风湿性关节炎性巩膜炎；前房积血；异常血红蛋白病；不稳定血红蛋白病；叶酸缺乏所致贫血；老年痴呆；宫颈妊娠；高血压病伴发的精神障碍；原发性免疫缺陷病；蚕食性角膜溃疡；外阴-阴道-牙龈综合征；痴呆综合征；小儿肝硬化；电击伤；急性淋巴管炎；睾丸淋巴瘤；甲亢合并妊娠
 
 ```
+
+## topic cluster
+
+https://github.com/darr/topic_cluster
+
+based on kmeans, lda, lsi topic cluster.
+
+基于Kmeans与Lda模型的多文档主题聚类,输入多篇文档,
+输出每个主题的关键词与相应文本,可用于主题发现与热点分析
