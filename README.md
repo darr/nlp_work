@@ -786,3 +786,26 @@ A chatbot that can be an expert on the common questions like why,how,when,who,wh
 
 ```
 
+# word_cloud
+
+https://github.com/darr/word_cloud
+
+A toolbox or kit for image-shape adjusted word cloud based on plain text, local file or web articles,  
+面向本地文件, 在线网页, 程序输入的字符云自动生成组件,支持用户自定义图片字符形状, 生成给定网页,文本的高频词和关键词词云.        
+
+# 效果展示:
+ 
+![image](https://github.com/darr/word_cloud/raw/master/results/mao-topwords.jpg)  
+
+![image](https://github.com/darr/word_cloud/raw/master/results/mao-keywords.jpg)  
+
+![image](https://github.com/darr/word_cloud/raw/master/results/huawei-topwords.jpg)  
+
+![image](https://github.com/darr/word_cloud/raw/master/results/huawei-keywords.jpg)  
+
+![image](https://github.com/darr/word_cloud/raw/master/results/jiangxi-topwords.jpg)  
+
+![image](https://github.com/darr/word_cloud/raw/master/results/jiangxi-keywords.jpg)  
+
+
+
