@@ -1277,6 +1277,8 @@ HyponymyExtraction and Graph based on KB Schema, Baike-kb and online text extrac
 
 ## subjective_detection
 
+https://github.com/darr/subjective_detection
+
 Subjective Dectection based on subjective knowlegebase,
 基于中文主观性知识库的句子主观性评定方法。
 
@@ -1284,4 +1286,50 @@ Subjective Dectection based on subjective knowlegebase,
 
 中华人民共和国万岁 0.2 
 我喜欢你 0.7666666666666666
+
+
+## antiword
+
+https://github.com/darr/antiword
+
+针对中文词语的反义词查询接口．
+在当前的中文信息处理当中，有大量的近义词词典，如同义词词林等，
+但少有反义词词典，反义词词典在构造对立语义上有很大用途，本项目目的是为提供这一接口
+
+## word2vector
+
+https://github.com/darr/word2vector
+
+word embedding methods using CBOW，skip-Gram，word2doc matrix , word2word matrix
+基于CBOW、skip-gram、词-文档矩阵、词-词矩阵四种方法的词向量生成
+
+中国
+word2word output: '重拾', '习性', '工业生产', '低俗', '菊花', '高消费', '超级大国', '输出', '犹存', '封建制度',
+word2doc output: '旅游', '美国', '印度', '日本', '公司', '发展', '企业', '集团', '北京', '国家',
+skipgram output: '美国', '发展', '日本', '底物', '世界', '280圆', '市场', '茴香', '经线', '鸡杂',
+cbow output: '留学生', '象样', '钠离子', '我国', '社会主义国家', '凯旋', '红一方面军', '准噶尔', '古代文学', '榜单',
+
+美国
+word2word output: '低俗', '重拾', '贪渎', '楚文化', '高消费', '狂欢', '习性', '遗存', '超级大国', '解析',
+word2doc output: '中国', '美元', '签证', '博士伦', '日本', '护理', '国家', '印度', '人民币', '汇率',
+skipgram output: '中国', '日本', '280圆', '底物', '道统', '茴香', '经线', '发现', '奥运项目', '这是',
+cbow output: '花卉市场', '违约', '号令', '意大利', '领到', '军费', '个儿', '流动性', '英国', '养尊处优',
+
+教育
+word2word output: '威胁论', '教育产业化', '贫困家庭', '中国制造', '节庆', '町村', '课上', '一盘散沙', '中文系', '精神教育',
+word2doc output: '学校', '学生', '孩子', '教师', '招生', '考试', '家长', '考生', '高校', '课程',
+skipgram output: '社会', '美国', '中国', '国家', '发展', '这一', '学校', '我国', '经济', '2005-11-13',
+cbow output: '行政法', '新教材', '种树', '内城', '沾上', '执政', '精神力量', '供人', '待定', '过活',
+
+疾病
+word2word output: '生殖', '胚胎干细胞', '不具', '克隆技术', '克隆', '长势', '克隆人', '胚胎', '诊疗', '法律委员会',
+word2doc output: '治疗', 'gt', '患者', '高血压', '病人', '哮喘', '药物', '女性', '症状', '医院',
+skipgram output: '1365672', '铁托', '东莞市', 'occasion', '经线', '0.08', '用典', '风月', '艾滋病防治条例', '碱基对',
+cbow output: '癌症', '高血压', '总工会', '呜咽', '红客', '婴儿', '中国科协', '复习资料', '移植', '病人',
+
+母亲
+word2word output: '亲生', '球星', '歌星', '肩挑', '勇敢地', '操心', '寻医问药', '母爱', '赶去', '巴桑',
+word2doc output: '孩子', 'newwin', 'url', '婴儿', '皇后', '乳腺癌', '父母', '治疗', '家长', '疫苗',
+skipgram output: '铁锨', '书香', 'polo', '0533', '清净剂', '于我', '升官', '发行日期', '奶子', '每题',
+cbow output: '艺人', '自觉性', '皇后', '听谁', '提及', '结果却', '厂址', '活起来', '秋山', '了得',
 
