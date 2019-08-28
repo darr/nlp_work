@@ -1178,3 +1178,10 @@ chatbot based on music region using method including es and music kb.
 https://github.com/darr/event_triples_extract
 
 Based on Dependency Parsing and Semantic Role Labeling. 基于依存句法与语义角色标注的事件三元组抽取
+
+## event line
+
+https://github.com/darr/extract_important_event
+
+An exploration for Eventline (important news Rank organized by pulic time)，
+针对某一事件话题下的新闻报道集合，通过使用docrank算法，对新闻报道进行重要性识别，并通过新闻报道时间挑选出时间线上重要新闻。
