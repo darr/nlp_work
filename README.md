@@ -1333,3 +1333,54 @@ word2doc output: '孩子', 'newwin', 'url', '婴儿', '皇后', '乳腺癌', '�
 skipgram output: '铁锨', '书香', 'polo', '0533', '清净剂', '于我', '升官', '发行日期', '奶子', '每题',
 cbow output: '艺人', '自觉性', '皇后', '听谁', '提及', '结果却', '厂址', '活起来', '秋山', '了得',
 
+# query_correction
+
+https://github.com/darr/query_correction
+
+SpellCorrection based pinyin similairity, edit distance ，  
+基于用户词表，拼音相似度与编辑距离的查询纠错。  
+
+# result
+
+```shell
+我门
+{'我们': 98740}
+田安门
+{'天安门': 34010}
+你好
+{'你好': 725}
+中国
+{'中国': 129470, '种果': 8, '种过': 3}
+美国
+{'每过': 3, '每锅': 3, '美国': 36089}
+```
+
+# pinyin2word
+
+https://github.com/darr/pinyin2word
+
+Pinyin2Chinese demo use algorithms including Trie and HMM model  
+基于隐马尔科夫模型与Trie树的拼音切分与拼音转中文的简单demo实现。  
+
+# 1、拼音序列切分    
+
+input
+
+nihaozhongguo
+['ni', 'hao', 'zhong', 'guo']
+
+woshizhongguoren
+['wo', 'shi', 'zhong', 'guo', 'ren']
+
+# 2、拼音转文字  
+
+input
+
+nihaozhongguo
+['ni', 'hao', 'zhong', 'guo']
+['你', '好', '中', '国']
+
+woshizhongguoren
+['wo', 'shi', 'zhong', 'guo', 'ren']
+['我', '是', '中', '国', '人']
+
