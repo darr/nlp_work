@@ -64,13 +64,13 @@ Chinese Classic Poem Mining Project including corpus buiding by spyder and conte
 
 以下是举例结果：     
 
-![image](./results/libai.png)
-![image](./results/liqingzhao.png)
-![image](./results/liyu.png)
-![image](./results/sushi.png)
-![image](./results/taoyuanming.png)
-![image](./results/wentianxiang.png)
-![image](./results/xinqiji.png)
+![image](https://github.com/darr/poem/raw/master/results/libai.png)
+![image](https://github.com/darr/poem/raw/master/results/liqingzhao.png)
+![image](https://github.com/darr/poem/raw/master/results/liyu.png)
+![image](https://github.com/darr/poem/raw/master/results/sushi.png)
+![image](https://github.com/darr/poem/raw/master/results/taoyuanming.png)
+![image](https://github.com/darr/poem/raw/master/results/wentianxiang.png)
+![image](https://github.com/darr/poem/raw/master/results/xinqiji.png)
 
-![image](./results/author_select.png)
-![image](./results/authors.png)
+![image](https://github.com/darr/poem/raw/master/results/author_select.png)
+![image](https://github.com/darr/poem/raw/master/results/authors.png)
