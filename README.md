@@ -24,8 +24,8 @@ which sum up to 1300 products and more than 90000 brands,
 1, 基本数据内容
 ![image](https://github.com/darr/product_kg/raw/master/image/info.png)
 2, is-a概念上下位关系
-![image](https://github.com/darr/product_kg/image/is_a.png)
+![image](https://github.com/darr/product_kg/raw/master/image/is_a.png)
 3, sale销售关系
-![image](https://github.com/darr/product_kg/image/sale.png)
+![image](https://github.com/darr/product_kg/raw/master/image/sale.png)
 4, 混合关联关系
-![image](https://github.com/darr/product_kg/image/mix.png)
+![image](https://github.com/darr/product_kg/raw/master/image/mix.png)
