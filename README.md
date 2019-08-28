@@ -112,3 +112,48 @@ https://github.com/darr/chinese_word_form
 偏旁部首： ['丨', '文', '亻', '心', '夂', '王', '彐', '丨', '，', '讠', '言', '夕', '阝', '彡', '弋', '一', '白', '牜', '彳', '土', '口', '人', '亻', '力', '丨', '扌', '氵', '目', '走', '木', '走', '里', '覀', '白', '角', '色']
 
 ```
+
+
+## SimilarityCompute
+Sentence Similarity compute based on cilin, hownet, simhash, wordvector,vsm models，  
+基于同义词词林，知网，指纹，字词向量，向量空间模型的句子相似度计算。  
+
+### results
+
+```shell
+sentence1:南昌是江西省的省会
+sentence2:北京乃中国之首都
+cilin 0.9
+hownet 0.7857142857142857
+simhash 0.46875
+simtoken 0.4715704505415333
+simvsm 0.0
+
+
+sentence1:我是中国人，我深爱着我的祖国
+sentence2:中国是我的母亲，我热爱她
+cilin 0.8375
+hownet 0.8068181818181819
+simhash 0.734375
+simtoken 0.8240455276180504
+simvsm 0.7126966450997984
+
+
+sentence1:一群高贵气质的差人在处罚违章动物
+sentence2:城管执法，若不文明会导致很多不公平事故
+cilin 0.6363636363636362
+hownet 0.36916208791208793
+simhash 0.53125
+simtoken 0.20195795723403823
+simvsm 0.0
+
+
+sentence1:小明去了姥姥家，姥姥给他买了一本童话书
+sentence2:我外婆早早的就出去了，给我带回来一本恐怖小说
+cilin 0.7000000000000001
+hownet 0.4841269841269841
+simhash 0.53125
+simtoken 0.5974486426178804
+simvsm 0.16903085094570325
+```
+
