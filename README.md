@@ -1235,43 +1235,53 @@ HyponymyExtraction and Graph based on KB Schema, Baike-kb and online text extrac
 # 结果展示　　
 
 哆啦A梦  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_duolaameng.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_duolaameng.png)  
 平壤  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_pingrang.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_pingrang.png)  
 孔子  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_kongzi.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_kongzi.png)  
 小米  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_xiaomai.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_xiaomai.png)   
 苹果  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_pingguo.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_pingguo.png)  
 中国  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_zhongguo.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/kb_zhongguo.png)  
 
 # 结果展示
 
 电话  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_dianhua.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_dianhua.png)  
 孔子  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_kongzi.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_kongzi.png)  
 平壤  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_pingrang.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_pingrang.png)  
 杨幂  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_yangmi.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_yangmi.png)  
 哆啦A梦  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_duolaameng.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_duolaameng.png)  
 老子  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_laozi.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_laozi.png)  
 小米  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_xiaomai.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_xiaomai.png)  
 姚明  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_yaoming.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_yaoming.png)  
 黄河  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_huanghe.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_huanghe.png)  
 苹果  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_pingguo.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_pingguo.png)  
 小米  
-![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_xiaomi.png)
+![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_xiaomi.png)  
 中国  
 ![image](https://github.com/darr/hyonym_extraction/raw/master/img/baike_zhongguo.png)
 
+
+## subjective_detection
+
+Subjective Dectection based on subjective knowlegebase,
+基于中文主观性知识库的句子主观性评定方法。
+
+### results
+
+中华人民共和国万岁 0.2 
+我喜欢你 0.7666666666666666
 
