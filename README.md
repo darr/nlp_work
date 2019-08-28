@@ -965,11 +965,11 @@ effect 就要遵守学生的基本规范
 ```
 
 # 范冰冰偷税漏税事件
-![image](./image/fangbingbing.png)
+![image](https://github.com/darr/extract_cuasality_event/raw/master/image/fangbingbing.png)
 
 # 美国攻打伊拉克事件
-![image](./image/gongda.png)
+![image](https://github.com/darr/extract_cuasality_event/raw/master/image/gongda.png)
 
 # 寿光发生洪水事件
-![image](./image/shouguang.png)
+![image](https://github.com/darr/extract_cuasality_event/raw/master/image/shouguang.png)
 
