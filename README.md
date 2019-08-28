@@ -1384,3 +1384,105 @@ woshizhongguoren
 ['wo', 'shi', 'zhong', 'guo', 'ren']
 ['我', '是', '中', '国', '人']
 
+
+## text_feature_extraction
+
+https://github.com/darr/text_feature_extraction
+
+text feature extraction using algorithms including CHI, DF, IG, MI for the experiment of text classification based on sougou online news
+基于卡方检验CHI，文档频率DF, 信息增益IG，互信息MI的文本特征提取与实现
+
+## word_collocation
+
+https://github.com/darr/word_collocation
+
+Word Collocation(词语搭配) using MI method which is tested to be effective..
+
+互信息体现了两个变量之间的相互依赖程度。二元互信息是指两个事件相关性的量，互信息值越高, 表明X和Y相关性越高, 则X和Y 组成短语的可能性越大; 反之, 互信息值越低,X 和Y之间相关性越低, 则X 和Y之间存在短语边界的可能性越大。
+
+### result
+以1W个文档/句子作为训练语料，进行训练，得到结果举例如下：
+word:陷入
+word collocations Top 10:
+不由得@18.05618124455273
+两难@17.83378882321628
+林林总总@17.57075441738249
+不怎么@17.248826322495123
+误区@17.248826322495123
+市面上@17.248826322495123
+失落@16.386329846245058
+困境@15.83378882321628
+母亲@15.511860728328918
+常@15.471218743831571
+
+word:乐于
+word collocations Top 10:
+吃苦耐劳@19.57075441738249
+奉献@18.57075441738249
+事业心@18.57075441738249
+作风@18.248826322495123
+务实@17.418751323937435
+责任感@17.248826322495123
+Kevin@17.248826322495123
+政治素质@16.248826322495123
+热爱@15.959319705300139
+客户@15.734253149665365
+
+
+## word_segment
+Chinese WordSegment based on algorithms including Maxmatch (forward, backward, bidirectional), HMM, N-gram. And Proformance compare.
+
+
+1. test corpus：微软评测语料，3985 sentences   
+
+2. proformance compare  
+
+| Algorithm | Precision | Recall | F1-score | Cost-Time |
+| --- | :---: | --- | --- | --- |
+| HMM | 0.65| 0.75| 0.70 | 1.43s |
+| MaxForward | 0.76 | 0.87 | 0.81 |107.74s |
+| MaxBackward | 0.76 | 0.87 | 0.81 | 124.09s |
+| MaxBiWard |0.76 | 0.87 | 0.81 | 229.00s|
+| MaxProbNgram | 0.76 | 0.87 | 0.81 | 3.54s|
+| MaxBiwardNgram | 0.74 | 0.86 | 0.80 | 0.94s|
+
+
+上午九点，在位于湖北潜江中国最大的小龙虾交易市场，商户们正在把早上刚刚收上来的小龙虾分拣、装箱、打包，准备发往全国各地。
+HMM Word Segment:
+['上午', '九点', '，', '在', '位', '于', '湖北', '潜江', '中国', '最大', '的', '小龙虾', '交易', '市场', '，', '商户', '们', '正在', '把', '早', '上', '刚', '刚收', '上来', '的', '小龙虾', '分', '拣', '、', '装箱', '、', '打包', '，', '准备', '发往', '全国', '各地', '。']
+Max ngram Word Segment:
+['上午', '九', '点', '，', '在', '位于', '湖北', '潜', '江', '中国', '最', '大', '的', '小', '龙虾', '交易', '市场', '，', '商', '户', '们', '正在', '把', '早上', '刚刚', '收', '上来', '的', '小', '龙虾', '分', '拣', '、', '装', '箱', '、', '打', '包', '，', '准备', '发', '往', '全国', '各地', '。']
+Biward ngram Word Segment:
+['上午', '九', '点', '，', '在', '位于', '湖北', '潜', '江', '中国', '最', '大', '的', '小', '龙虾', '交易', '市场', '，', '商', '户', '们', '正在', '把', '早上', '刚刚', '收', '上来', '的', '小', '龙虾', '分', '拣', '、', '装', '箱', '、', '打', '包', '，', '准备', '发', '往', '全国', '各地', '。']
+max forward Word Segment:
+['上午', '九', '点', '，', '在', '位于', '湖北', '潜', '江', '中国', '最', '大', '的', '小', '龙虾', '交易', '市场', '，', '商', '户', '们', '正在', '把', '早上', '刚刚', '收', '上来', '的', '小', '龙虾', '分', '拣', '、', '装', '箱', '、', '打', '包', '，', '准备', '发', '往', '全国', '各地', '。']
+max backward Word Segment:
+['上午', '九', '点', '，', '在', '位于', '湖北', '潜', '江', '中国', '最', '大', '的', '小', '龙虾', '交易', '市场', '，', '商', '户', '们', '正在', '把', '早上', '刚刚', '收', '上来', '的', '小', '龙虾', '分', '拣', '、', '装', '箱', '、', '打', '包', '，', '准备', '发', '往', '全国', '各地', '。']
+max biward Word Segment:
+['上午', '九', '点', '，', '在', '位于', '湖北', '潜', '江', '中国', '最', '大', '的', '小', '龙虾', '交易', '市场', '，', '商', '户', '们', '正在', '把', '早上', '刚刚', '收', '上来', '的', '小', '龙虾', '分', '拣', '、', '装', '箱', '、', '打', '包', '，', '准备', '发', '往', '全国', '各地', '。']
+
+## keyinfo
+
+https://github.com/darr/keyinfo
+
+key info extract
+
+Based on Textrank, key information extraction including keywords, abstract. Based on TFIDF, keywords extraction.
+
+
+
+## ner 命名实体识别
+
+https://github.com/darr/dlner
+
+The models implemented in this project are HMM, CRF, Bi-LSTM, Bi_LSTM+CRF.
+
+
+## dlnlp
+
+https://github.com/darr/dlnlp
+
+base on HMM and CRF :
+Word Segmentation, POS，NER
+base of CRF:
+Dependency Parsing
