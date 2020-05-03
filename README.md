@@ -1433,6 +1433,9 @@ Kevin@17.248826322495123
 
 
 ## word_segment
+
+https://github.com/darr/word_segment
+
 Chinese WordSegment based on algorithms including Maxmatch (forward, backward, bidirectional), HMM, N-gram. And Proformance compare.
 
 
