@@ -1012,6 +1012,9 @@ effect 就要遵守学生的基本规范
 ![image](https://github.com/darr/extract_cuasality_event/raw/master/image/shouguang.png)
 
 # medical knowledge graph question answer
+
+https://github.com/darr/medical_kg_qa
+
 disease centered Medical graph and sever as question answering base. 
 搭建一个以疾病为中心的一定规模医药领域知识图谱，  
 以该知识图谱完成自动问答与分析服务。  
