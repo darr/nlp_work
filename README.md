@@ -396,6 +396,7 @@ QaSystem based on military knowledge graph that stores in mongodb which is diffe
 共找到1个答案， 下面是具体明细：
 ['安-225梦想式运输机名称:安-225梦想式运输机', '安-225梦想式运输机最大航程:15400000.0']
 
+```
 ## histroy hot event base
 
 https://github.com/darr/histroy_hot_event_base
